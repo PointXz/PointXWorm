@@ -24,6 +24,8 @@
 
 > Single Spam
 >
+> Mass Spam
+>
 > Discord Token & Mass Tokens
 >
 > Discord Bypass Less

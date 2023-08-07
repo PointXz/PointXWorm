@@ -3,7 +3,7 @@
 #
 
 <h1 align="center">
- Wendy's Stealer
+ Discord Worm
 </h1>
 
 <p align="center"> 

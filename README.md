@@ -51,4 +51,4 @@
 
 I am not responsible for any damages this software may cause after being acquired. This software was made for personal education and sandbox testing.
 
-<p align="center"><a href=#top>Back to Top</a></p>
+<p align="center"><a href=#top>Back to Top!</a></p>

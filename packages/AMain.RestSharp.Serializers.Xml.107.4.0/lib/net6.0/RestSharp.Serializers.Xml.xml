@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RestSharp.Serializers.Xml</name>
+    </assembly>
+    <members>
+        <member name="T:RestSharp.Serializers.DeserializeAsAttribute">
+            <summary>
+            Allows control how class and property names and values are deserialized by XmlAttributeDeserializer
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.DeserializeAsAttribute.Name">
+            <summary>
+            The name to use for the serialized element
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.DeserializeAsAttribute.Attribute">
+            <summary>
+            Sets if the property to Deserialize is an Attribute or Element (Default: false)
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.DeserializeAsAttribute.Content">
+            <summary>
+            Sets if the property to Deserialize is a content of current Element (Default: false)
+            </summary>
+        </member>
+        <member name="T:RestSharp.Serializers.SerializeAsAttribute">
+            <summary>
+            Allows control how class and property names and values are serialized by XmlSerializer
+            Currently not supported with the JsonSerializer
+            When specified at the property level the class-level specification is overridden
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.SerializeAsAttribute.Name">
+            <summary>
+            The name to use for the serialized element
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.SerializeAsAttribute.Attribute">
+            <summary>
+            Sets the value to be serialized as an Attribute instead of an Element
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.SerializeAsAttribute.Content">
+            <summary>
+            Sets the value to be serialized as text content of current Element instead of an new Element
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.SerializeAsAttribute.Culture">
+            <summary>
+            The culture to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.SerializeAsAttribute.NameStyle">
+            <summary>
+            Transforms the casing of the name based on the selected value.
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.SerializeAsAttribute.Index">
+            <summary>
+            The order to serialize the element. Default is int.MaxValue.
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.SerializeAsAttribute.TransformName(System.String)">
+            <summary>
+            Called by the attribute when NameStyle is speficied
+            </summary>
+            <param name="input">The string to transform</param>
+            <returns>String</returns>
+        </member>
+        <member name="T:RestSharp.Serializers.NameStyle">
+            <summary>
+            Options for transforming casing of element names
+            </summary>
+        </member>
+        <member name="T:RestSharp.Serializers.Xml.XmlExtensions">
+            <summary>
+            XML Extension Methods
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.Xml.XmlExtensions.AsNamespaced(System.String,System.String)">
+            <summary>
+            Returns the name of an element with the namespace if specified
+            </summary>
+            <param name="name">Element name</param>
+            <param name="namespace">XML Namespace</param>
+            <returns></returns>
+        </member>
+        <member name="T:RestSharp.Serializers.Xml.XmlSerializer">
+            <summary>
+            Default XML Serializer
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.Xml.XmlSerializer.#ctor">
+            <summary>
+            Default constructor, does not specify namespace
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.Xml.XmlSerializer.#ctor(System.String)">
+            <summary>
+            Specify the namespaced to be used when serializing
+            </summary>
+            <param name="namespace">XML namespace</param>
+        </member>
+        <member name="M:RestSharp.Serializers.Xml.XmlSerializer.Serialize(System.Object)">
+            <summary>
+            Serialize the object as XML
+            </summary>
+            <param name="obj">Object to serialize</param>
+            <returns>XML as string</returns>
+        </member>
+        <member name="P:RestSharp.Serializers.Xml.XmlSerializer.RootElement">
+            <summary>
+            Name of the root element to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.Xml.XmlSerializer.Namespace">
+            <summary>
+            XML namespace to use when serializing
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.Xml.XmlSerializer.DateFormat">
+            <summary>
+            Format string to use when serializing dates
+            </summary>
+        </member>
+        <member name="P:RestSharp.Serializers.Xml.XmlSerializer.ContentType">
+            <summary>
+            Content type for serialized content
+            </summary>
+        </member>
+        <member name="M:RestSharp.Serializers.Xml.XmlSerializer.IsNumeric(System.Object)">
+            <summary>
+            Determines if a given object is numeric in any way
+            (can be integer, double, null, etc).
+            </summary>
+        </member>
+    </members>
+</doc>

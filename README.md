@@ -8,7 +8,7 @@
 
 <p align="center"> 
   <kbd>
-<img src="https://media.discordapp.net/attachments/1137144294621315073/1137877382989099139/wendys-logo-6.png?width=720&height=670" width="328"></img>
+<img src="https://media.discordapp.net/attachments/1137128567252209805/1137940112689348618/Discord-logo.png?width=1191&height=670" width="328"></img>
   </kbd>
 </p>
 

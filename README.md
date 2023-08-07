@@ -42,7 +42,6 @@
 <img title="" src="https://media.discordapp.net/attachments/1137128567252209805/1137939705158185000/image.png?width=1158&height=670" alt="" width="539">
 <img title="" src="https://media.discordapp.net/attachments/1137128567252209805/1137939806563868752/AFbK7LI.png?width=1158&height=670" alt="" width="539">
 <img title="" src="https://media.discordapp.net/attachments/1137128567252209805/1137939948679471175/ledAPUe.png?width=1150&height=670" alt="" width="539">
-<img title="" src="https://media.discordapp.net/attachments/1137128567252209805/1137939950973751357/mAYYa85.png?width=1423&height=670" alt="" width="539">
 
 <a id="todo"></a>
 
